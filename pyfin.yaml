@@ -9,6 +9,8 @@ dependencies:
   - scipy
   - matplotlib
   - statsmodels
+  - seaborn
+  - fbprophet
   - pip
   - pip:
     - pandas_datareader
