@@ -1,0 +1,16 @@
+name: pyfin
+channels:
+  - defaults
+dependencies:
+  - python=3.8
+  - notebook
+  - pandas
+  - numpy
+  - scipy
+  - matplotlib
+  - pip
+  - pip:
+    - pandas_datareader
+    # For jupyter notebook autocomplete
+    - jupyter_contrib_nbextensions
+prefix: $HOME/anaconda3/envs/pyfin
