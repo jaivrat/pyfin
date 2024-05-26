@@ -8,9 +8,11 @@ dependencies:
   - numpy
   - scipy
   - matplotlib
+  - statsmodels
   - pip
   - pip:
     - pandas_datareader
+    - yfinance
     # For jupyter notebook autocomplete
     - jupyter_contrib_nbextensions
 prefix: $HOME/anaconda3/envs/pyfin
