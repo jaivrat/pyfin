@@ -11,12 +11,11 @@ dependencies:
   - matplotlib
   - statsmodels
   - seaborn
-  - holidays=0.24
-  - prophet=1.1.2
   - pip
   - pip:
     - pandas_datareader
     - yfinance
+    - prophet
     # For jupyter notebook autocomplete
     - jupyter_contrib_nbextensions
 prefix: $HOME/anaconda3/envs/pyfin
